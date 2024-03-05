@@ -4,6 +4,7 @@ const service = document.getElementById("service");
 const after = document.getElementById("after");
 const h3 = document.getElementById("result");
 const h4 = document.getElementById("warning");
+const h5 = document.getElementById("credit");
 const button = document.getElementById("button");
 const resetButton = document.getElementById("reset");
 
@@ -24,6 +25,7 @@ button.addEventListener("click", function () {
       h3.innerHTML =
         "Replenished " + finalService + " quarts" + " from cart " + cartSerial;
       h4.innerHTML = "Remember! Above 8 Quarts = Not Serviceable!";
+      h5.innerHTML = "Created by Ariel Rakhamimov";
     }
   }
 
@@ -37,4 +39,5 @@ resetButton.addEventListener("click", function () {
   after.value = "";
   h3.innerHTML = "";
   h4.innerHTML = "";
+  h5.innerHTML = "";
 });
