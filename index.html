@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oil Rep Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <h1>Oil Replenishment Calculator</h1>
+    <h2>116 Squadron - Datak 2</h2>
+    <div id="cart-div">
+      <label for="cart"> Enter Cart Serial Number: </label>
+      <input type="text" id="cart" placeholder="Serial number" />
+    </div>
+    <br />
+    <div id="before-div">
+      <label for="before"> Enter Quantity Before: </label>
+      <input type="text" id="before" placeholder="Quantity before" />
+    </div>
+    <br />
+    <div id="service-div">
+      <label for="service"> Replenishment: </label>
+      <input type="text" id="service" placeholder="Quarts" />
+    </div>
+    <br />
+    <div id="after-div">
+      <label for="after"> Enter Quantity After: </label>
+      <input type="text" id="after" placeholder="Quantity after" />
+    </div>
+    <br />
+    <button id="button">Calculate</button>
+    <button id="reset">Reset</button>
+    <h3 id="result"></h3>
+    <h4 id="warning"></h4>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

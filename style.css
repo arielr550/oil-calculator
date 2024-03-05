@@ -1,0 +1,34 @@
+.container {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#before-div input {
+  width: 188px;
+}
+
+#service-div input {
+  width: 231px;
+}
+
+#after-div input {
+  width: 199px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+h4 {
+  color: red;
+}
